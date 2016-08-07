@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:text="Posted by"
+            android:layout_marginTop="5dp"
+            android:id="@+id/posted1"
+            android:textColor="#455a64"
+            android:layout_marginLeft="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:text=""
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:id="@+id/posted"
+                android:textColor="#455a64"
+                android:layout_marginLeft="6dp"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="hello ,hi "
+            android:textColor="#000000"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:layout_marginTop="1dp"
+            android:textSize="15dp"
+            android:id="@+id/tv1"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_marginTop="7dp"
+            android:gravity="left"
+            android:layout_marginLeft="10dp"
+
+
+            android:paddingRight="15dp"
+            android:id="@+id/tv2"
+            android:textColor="#455a64"
+            android:text="fdhghgjfj"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="light">#00897B</color>
+    <color name="medium">#00796B</color>
+    <color name="dark">#004D40</color>
+    <color name="actionbar_background">#00796B</color>
+    <color name="actionbar_text">#ffffff</color>
+    <color name="genre">#ffffff</color>
+    <color name="year">#ffffff</color>
+    <color name="list_divider">#d9d9d9</color>
+    <color name="list_row_start_color">#ffffff</color>
+    <color name="list_row_end_color">#ffffff</color>
+    <color name="list_row_hover_start_color">#ebeef0</color>
+    <color name="list_row_hover_end_color">#ebeef0</color>
+
+</resources>

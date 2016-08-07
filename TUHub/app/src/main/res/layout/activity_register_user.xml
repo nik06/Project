@@ -1,0 +1,120 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+
+    android:layout_width="fill_parent">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text="Registration Form"
+        android:id="@+id/hj"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:background="#00897B"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/hj"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical"
+            android:weightSum="11">
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/username"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Username*"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:id="@+id/email"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Email*"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/roll"
+                android:textColor="#01579b"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="University Roll No.*"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/contact"
+                android:gravity="center"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Contact Number*"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:maxLength="2000"
+                android:maxLines="8"
+                android:hint="Password*"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:gravity="center"
+                android:textColor="#01579b"
+                android:inputType="textPassword"
+                android:id="@+id/confirm"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Confirm Password"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:id="@+id/reg"
+                android:textStyle="bold"
+                android:background="@drawable/round"
+                android:layout_marginBottom="30dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView></RelativeLayout>
+
+
+
+

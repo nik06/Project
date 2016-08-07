@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:background="@drawable/login"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.khurana.nikhil.tuhub.FAQ">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:scrollbars="none"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:text="Frequently Asked Questions"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="5dp"
+                android:text="Q. Why am I not able to register an event?"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You must be logged in as society to register an event."
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Q. Is it possible to post comments or ask question in forum as a guest?"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="No, these features are available only if you are logged in as student or society."
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Q. How do I use favourites option in app?"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
+                android:text="Mark the events you wish to attend as favourite. You will get a notification 30 minutes before start of your favourite events."
+
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Q. What kind of questions can be asked in forum?"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="You are free to ask questions related to the ongoing or upcoming events. You can also ask questions related to college academics, hostels or other general topics."
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Q. Why was my account deleted?"
+                android:textColor="#ffffff"
+                android:textSize="17dp"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="In case we find your post or comment inappropriate,your account will be permanently suspended."
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+
+
+
+        </LinearLayout></ScrollView>
+
+</RelativeLayout>

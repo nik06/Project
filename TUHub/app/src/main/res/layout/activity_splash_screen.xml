@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    tools:context="com.khurana.nikhil.tuhub.SplashScreen">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+
+        android:layout_height="fill_parent">
+
+
+
+        <ImageView
+            android:layout_width="490dp"
+            android:layout_gravity="center"
+           android:background="@drawable/yugu"
+            android:layout_marginTop="0dp"
+            android:layout_height="290dp"/>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:layout_marginTop="130dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:text="All your events and discussions at one place"/>
+
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,167 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+    android:background="@drawable/login"
+    android:layout_width="fill_parent">
+
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/hj"
+
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:weightSum="11">
+
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_marginTop="50dp"
+                android:onClick="onRadioButtonClicked"
+                android:layout_marginLeft="70dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/rd"
+                android:orientation="horizontal">
+                <RadioButton android:id="@+id/student"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:checked="true"
+                    android:textStyle="bold"
+                    android:text="Student"
+                    android:onClick="onRadioButtonClicked"/>
+                <RadioButton android:id="@+id/soc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:textColor="#ffffff"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:text="Society"
+                    android:onClick="onRadioButtonClicked"/>
+            </RadioGroup>
+
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:text=""
+                android:hint="Username"
+android:layout_gravity="center"
+                android:ems="10"
+                android:id="@+id/editText"
+                android:layout_marginTop="30dp"
+                 />
+
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/editText2"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_below="@+id/editText"
+                android:layout_alignStart="@+id/editText" />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_marginTop="35dp"
+                android:layout_height="60dp">
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:background="@drawable/round"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/button"
+                 />
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_height="45dp"
+                android:text="Register"
+                android:background="@drawable/round"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_width="150dp"
+                android:textAllCaps="false"
+                android:id="@+id/button2"
+                android:layout_gravity="right" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="OR"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:id="@+id/textView3"
+                android:layout_below="@+id/button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp" />
+
+            <Button
+                android:layout_width="180dp"
+                android:text="Continue as Guest"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:id="@+id/button3"
+                android:textStyle="bold"
+                android:background="@drawable/round"
+                android:layout_marginBottom="30dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="10dp"/>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:orientation="horizontal"
+                android:layout_height="30dp">
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/request"
+                    android:onClick="abcd"
+                    android:textColor="#ff0000"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="60dp"
+                    android:text="Request"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="for society login ID password"
+                    android:textColor="#ffffff"
+                    android:layout_marginRight="15dp"/>
+
+            </LinearLayout>
+           
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#01579b"
+        android:text="Codewars 3.0"
+        android:layout_alignTop="@+id/imageview"
+        android:layout_toRightOf="@+id/imageview"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/society"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#880e4f"
+        android:text="Creative Computing Society"
+        android:layout_below="@id/textView"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/imageview"
+        android:textSize="@dimen/rating" />
+
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/venue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/society"
+        android:layout_marginTop="5dp"
+        android:text="Tan Building"
+        android:layout_toRightOf="@+id/imageview"
+        android:textColor="#000000"
+        android:textSize="@dimen/genre" />
+
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20 June"
+        android:textStyle="bold|italic"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#01579b"
+        android:textSize="@dimen/year" />
+
+</RelativeLayout>

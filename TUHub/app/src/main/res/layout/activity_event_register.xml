@@ -1,0 +1,163 @@
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="fill_parent"
+
+    android:layout_width="fill_parent">
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="90dp"
+        android:text="Registration Form"
+        android:id="@+id/hj"
+        android:gravity="center"
+
+        android:textAllCaps="false"
+        android:background="#00897B"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/hj"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:orientation="vertical"
+            android:weightSum="11">
+
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+
+                android:layout_marginLeft="30dp"
+                android:id="@+id/m"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Enter event name"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/n"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Enter society name"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/o"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Venue of event"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/p"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Date,time (e.g. 26July,5 PM)"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/q"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="8"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Registration Link (optional)"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#01579b"
+                android:id="@+id/r"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Registration Fee (optional)"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#01579b"
+                android:id="@+id/s"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="4"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="8"
+                android:hint="Short Description (Max. 400 words)"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/t"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="8"
+                android:hint="Poster link (drive/fb/dropbox,.jpg...etc)"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:textColor="#01579b"
+                android:id="@+id/u"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Contact Number"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/v"
+                android:textColor="#01579b"
+                android:layout_marginRight="30dp"
+                android:layout_height="fill_parent"
+                android:hint="Contact E-mail id"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:text="Register"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:id="@+id/reg"
+                android:textStyle="bold"
+                android:background="@drawable/round"
+                android:layout_marginBottom="30dp"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+    </ScrollView></RelativeLayout>
+
+
+
+
